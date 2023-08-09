@@ -101,7 +101,7 @@ body {
   -webkit-transition: all var(--speed) ease;
   transition: all var(--speed) ease;
 }
-
+/* Kamlesh Mahar */
 .menu__item:hover {
   color: rgba(150, 150, 255, 1);
 }
