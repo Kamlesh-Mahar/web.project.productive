@@ -1,0 +1,26 @@
+body {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #43cea2, #185a9d);
+  
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navbar {
+  font-family: "Times New Roman", Times, serif;
+}
+.pict {
+  padding-right: 10px;
+}
+.btn-outline {
+  border-radius: 15px;
+  border-color: aqua;
+}
+.search-bar {
+  border-radius: 15px;
+  text-align: center;
+  margin-right: 10px;
+  border-color: rgb(67, 123, 145);
+}
