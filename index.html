@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="icon" type="image/png" href="/image/l1.png" />
+
+    <title>OneLook</title>
+  </head>
+
+  <body onload="randomQuotes()">
+    <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
+    <div class="nav-bar">
+      <div class="nav">
+        <button
+          class="button-profile"
+          role="button"
+          onclick="window.location.href='/profile/profile.html'"
+        >
+          Profile
+        </button>
+      </div>
+    </div>
+
+    <div class="cards-c">
+      <section class="wrapper" onclick="location.href='/to-do/to-do-list.html'">
+        <div class="card" data-effect="zoom">
+          <figure class="card__image">
+            <img src="/image/11.png" alt="Short description" />
+          </figure>
+          <div class="card__header">
+            <figure class="card__profile">
+              <img src="/image/c.jpg" alt="Short description" />
+            </figure>
+          </div>
+          <div class="card__body">
+            <h3 class="card__name">Schedule</h3>
+            <p class="card__job">Schedule</p>
+            <p class="card__bio">Everyday small steps take you far in life.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="wrapper" onclick="location.href='/diary/diary.html'">
+        <div class="card" data-effect="zoom">
+          <figure class="card__image">
+            <img src="/image/22.jpg" alt="Short description" />
+          </figure>
+          <div class="card__header">
+            <figure class="card__profile">
+              <img src="/image/ff.webp" alt="Short description" />
+            </figure>
+          </div>
+          <div class="card__body">
+            <h3 class="card__name">
+              Diary and <br />
+              Notes
+            </h3>
+            <p class="card__job">Habit</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="wrapper">
+        <div class="card" data-effect="zoom">
+          <figure class="card__image">
+            <img src="/image/qq.jpg" alt="Short description" />
+          </figure>
+          <div class="card__header">
+            <figure class="card__profile">
+              <img src="/image/anime.png" alt="Short description" />
+            </figure>
+          </div>
+          <div class="card__body">
+            <h3 class="card__name">
+              Third <br />
+              Card
+            </h3>
+            <p class="card__job">In the future</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="quotes">
+      <blockquote id="quote"></blockquote>
+    </div>
+    <footer class="footer">
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+      <div class="social-icon">
+        <li class="social-icon__item">
+          <a
+            class="social-icon__link"
+            href="https://www.facebook.com/profile.php?id=100056194604352"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+        <li class="social-icon__item">
+          <a
+            class="social-icon__link"
+            href="https://twitter.com/Kamlesh_Mahar_"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+        <li class="social-icon__item">
+          <a
+            class="social-icon__link"
+            href="https://www.linkedin.com/in/kamlesh-mahar-680011245/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
+        </li>
+        <li class="social-icon__item">
+          <a
+            class="social-icon__link"
+            href="https://www.instagram.com/kall_me_alex/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
+        </li>
+      </div>
+      <p class="footer-text">
+        &copy;2023 Kamlesh Singh Mahar | All Rights Reserved
+      </p>
+    </footer>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="main.js"></script>
+  </body>
+</html>
