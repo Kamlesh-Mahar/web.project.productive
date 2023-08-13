@@ -1,0 +1,20 @@
+body {
+  background-color: lavenderblush;
+}
+
+.navbar {
+  font-family: "Times New Roman", Times, serif;
+}
+.pict {
+  padding-right: 10px;
+}
+.btn-outline {
+  border-radius: 15px;
+  border-color: aqua;
+}
+.search-bar {
+  border-radius: 15px;
+  text-align: center;
+  margin-right: 10px;
+  border-color: rgb(67, 123, 145);
+}
